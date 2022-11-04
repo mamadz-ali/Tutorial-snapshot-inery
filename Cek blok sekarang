@@ -1,0 +1,1 @@
+curl -sSL -X POST 'http://bis.blockchain-servers.world:8888/v1/chain/get_info' -H 'Accept: application/json' | jq -r '.head_block_num'
